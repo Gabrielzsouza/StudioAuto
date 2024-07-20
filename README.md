@@ -1,6 +1,5 @@
 # StudioAuto
-Site de portfólio de fotografia
-├── index.html
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -50,6 +49,4 @@ Site de portfólio de fotografia
     </footer>
 </body>
 </html>
-├── styles/
-│   └── tailwind.css
-└── README.md
+
