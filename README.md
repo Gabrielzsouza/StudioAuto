@@ -1,5 +1,4 @@
 # StudioAuto 
-├── index.html <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
@@ -47,9 +46,9 @@
         <section id="contato" class="my-12">
             <h2 class="text-2xl font-semibold mb-4 text-center">Contato</h2>
             <div class="text-center">
-                <p>Telefone: (XX) XXXX-XXXX</p>
-                <p>Email: seuemail@exemplo.com</p>
-                <p>Redes Sociais:</p>
+                <p>Telefone: (85) 997508700 </p>
+                <p>Email: Gabrielceara.gss@gmail.com</p>
+                <p>Redes Sociais: @StudioAutos_ / @Gab.souzs </p>
                 <ul class="flex justify-center space-x-4">
                     <li><a href="https://www.instagram.com/seuperfil" class="text-blue-500">Instagram</a></li>
                     <li><a href="https://www.facebook.com/seuperfil" class="text-blue-500">Facebook</a></li>
@@ -65,9 +64,6 @@
     </footer>
 </body>
 </html>
-├── src/
-│   └── styles/
-│       └── tailwind.css @tailwind base;
 @tailwind components;
 @tailwind utilities;
 ├── tailwind.config.js module.exports = {
@@ -81,5 +77,3 @@
   },
   plugins: [],
 }
-├── postcss.config.js
-└── README.md
