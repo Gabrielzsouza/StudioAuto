@@ -10,7 +10,14 @@
     <header class="bg-white shadow">
         <div class="container mx-auto px-4 py-6">
             <h1 class="text-3xl font-bold text-center">Meu Portfólio de Fotografia</h1>
-        </div> sdsdgqdfgsdgsdfgsdfgsdfg
+        </div> Sobre Mim
+Olá! Meu nome é Gabriel Souza e sou um fotógrafo apaixonado por capturar momentos únicos e inesquecíveis. Minha criatividade é a força motriz por trás de cada clique, e encontro inspiração em tudo ao meu redor, especialmente no mundo automobilístico.
+Acredito que a fotografia é uma forma de arte que vai além de simplesmente apertar o botão da câmera. É sobre ver o mundo de uma maneira diferente, encontrar beleza nos detalhes e transmitir emoções através de imagens. Minha abordagem é sempre buscar o ângulo perfeito, a luz ideal e o momento exato para criar fotos que falem por si mesmas.
+
+O Que Eu Ofereço
+Fotografia Automotiva: Capturo a elegância e a potência dos carros, desde clássicos até superesportivos modernos.
+Eventos Automotivos: Registro a emoção e a adrenalina de eventos automobilísticos, como corridas, exposições e encontros de carros.
+Retratos e Ensaios: Além do mundo automotivo, adoro fotografar pessoas, capturando suas personalidades e momentos especiais.
     </header>
     <main class="container mx-auto px-4 py-6">
         <section id="portfolio" class="my-12">
