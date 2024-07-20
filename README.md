@@ -95,7 +95,4 @@ meu-site-fotografia/
   plugins: [],
 }
 ├── postcss.config.js npm run build:css
-git add .
-git commit -m "Add dynamic and styled portfolio site"
-git push origin main
 └── README.md
