@@ -16,9 +16,7 @@
         <section id="portfolio" class="my-12">
             <h2 class="text-2xl font-semibold mb-4 text-center">Portfólio</h2>
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-                <!-- Adicione suas fotos aq![DSC_0555](https://github.com/user-attachments/assets/014f79f5-6911-4988-bbff-baaa715cba0c) ![DSC_0494](https://github.com/user-attachments/assets/a1eb843a-de23-46f9-ae83-06a8f8f6e00b) ![Uploading DSC_0428.JPG…]()
-
-
+                <!-- Adicione suas fotos aq!
 ui --> 
                 <div class="bg-white shadow rounded overflow-hidden">
                     <img src="foto1.jpg" alt="Foto 1" class="w-full h-48 object-cover">
