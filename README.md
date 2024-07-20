@@ -10,7 +10,7 @@
     <header class="bg-white shadow">
         <div class="container mx-auto px-4 py-6">
             <h1 class="text-3xl font-bold text-center">Meu Portfólio de Fotografia</h1>
-        </div>
+        </div> sdsdgqdfgsdgsdfgsdfgsdfg
     </header>
     <main class="container mx-auto px-4 py-6">
         <section id="portfolio" class="my-12">
