@@ -1,7 +1,6 @@
 # StudioAuto
 meu-site-fotografia/
-├── index.html
-<!DOCTYPE html>
+├── index.html <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
@@ -17,48 +16,48 @@ meu-site-fotografia/
             <nav>
                 <ul class="flex space-x-4">
                     <li><a href="#portfolio" class="hover:text-highlight">Portfólio</a></li>
+                    <li><a href="#sobre" class="hover:text-highlight">Sobre</a></li>
                     <li><a href="#contato" class="hover:text-highlight">Contato</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <main class="container mx-auto px-4 py-6">
-        <section id="hero" class="text-center py-12">
-            <h2 class="text-4xl font-bold mb-4">Bem-vindo ao Meu Portfólio de Fotografia</h2>
-            <p class="text-lg mb-8">Capturando momentos especiais com paixão e criatividade.</p>
-            <a href="#portfolio" class="bg-highlight text-white px-6 py-3 rounded-full hover:bg-pink-600 transition">Veja Meu Trabalho</a>
-        </section>
-        <section id="portfolio" class="py-12">
+        <section id="portfolio" class="my-12">
             <h2 class="text-2xl font-semibold mb-4 text-secondary">Portfólio</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <!-- Adicione suas fotos aqui -->
-                <div class="bg-white shadow rounded overflow-hidden">
+                <div class="bg-white shadow rounded overflow-hidden transform hover:scale-105 transition-transform duration-300">
                     <img src="foto1.jpg" alt="Foto 1" class="w-full h-48 object-cover">
                 </div>
-                <div class="bg-white shadow rounded overflow-hidden">
+                <div class="bg-white shadow rounded overflow-hidden transform hover:scale-105 transition-transform duration-300">
                     <img src="foto2.jpg" alt="Foto 2" class="w-full h-48 object-cover">
                 </div>
-                <div class="bg-white shadow rounded overflow-hidden">
+                <div class="bg-white shadow rounded overflow-hidden transform hover:scale-105 transition-transform duration-300">
                     <img src="foto3.jpg" alt="Foto 3" class="w-full h-48 object-cover">
                 </div>
             </div>
         </section>
-        <section id="contato" class="py-12">
+        <section id="sobre" class="my-12">
+            <h2 class="text-2xl font-semibold mb-4 text-secondary">Sobre</h2>
+            <p class="text-lg leading-relaxed">Sou um fotógrafo apaixonado por capturar momentos especiais. Com anos de experiência em fotografia de casamentos, retratos e paisagens, meu objetivo é criar imagens que contem histórias e emocionem.</p>
+        </section>
+        <section id="contato" class="my-12">
             <h2 class="text-2xl font-semibold mb-4 text-secondary">Contato</h2>
             <form class="bg-white shadow rounded p-6">
                 <div class="mb-4">
                     <label for="nome" class="block text-sm font-medium text-gray-700">Nome</label>
-                    <input type="text" id="nome" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring-highlight focus:border-highlight">
+                    <input type="text" id="nome" name="nome" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring-highlight focus:border-highlight">
                 </div>
                 <div class="mb-4">
                     <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
-                    <input type="email" id="email" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring-highlight focus:border-highlight">
+                    <input type="email" id="email" name="email" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring-highlight focus:border-highlight">
                 </div>
                 <div class="mb-4">
                     <label for="mensagem" class="block text-sm font-medium text-gray-700">Mensagem</label>
-                    <textarea id="mensagem" rows="4" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring-highlight focus:border-highlight"></textarea>
+                    <textarea id="mensagem" name="mensagem" rows="4" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring-highlight focus:border-highlight"></textarea>
                 </div>
-                <button type="submit" class="bg-highlight text-white px-6 py-3 rounded-full hover:bg-pink-600 transition">Enviar</button>
+                <button type="submit" class="bg-highlight text-white px-4 py-2 rounded-md shadow hover:bg-pink-600 transition-colors duration-300">Enviar</button>
             </form>
         </section>
     </main>
@@ -71,7 +70,10 @@ meu-site-fotografia/
 </html>
 ├── src/
 │   └── styles/
-│       └── tailwind.css module.exports = {
+│       └── tailwind.css @tailwind base;
+@tailwind components;
+@tailwind utilities;
+├── tailwind.config.js module.exports = {
   purge: ['./src/**/*.{html,js}', './index.html'],
   darkMode: false, // or 'media' or 'class'
   theme: {
@@ -92,10 +94,8 @@ meu-site-fotografia/
   },
   plugins: [],
 }
-├── public/
-│   └── styles.css
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-npm run build:css
+├── postcss.config.js npm run build:css
+git add .
+git commit -m "Add dynamic and styled portfolio site"
+git push origin main
 └── README.md
