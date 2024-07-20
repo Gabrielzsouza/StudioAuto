@@ -16,10 +16,13 @@
         <section id="portfolio" class="my-12">
             <h2 class="text-2xl font-semibold mb-4 text-center">Portfólio</h2>
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-                <!-- Adicione suas fotos aqui -->
+                <!-- Adicione suas fotos aq![DSC_0555](https://github.com/user-attachments/assets/014f79f5-6911-4988-bbff-baaa715cba0c) ![DSC_0494](https://github.com/user-attachments/assets/a1eb843a-de23-46f9-ae83-06a8f8f6e00b) ![Uploading DSC_0428.JPG…]()
+
+
+ui --> 
                 <div class="bg-white shadow rounded overflow-hidden">
                     <img src="foto1.jpg" alt="Foto 1" class="w-full h-48 object-cover">
-                </div>
+                </div> 
                 <div class="bg-white shadow rounded overflow-hidden">
                     <img src="foto2.jpg" alt="Foto 2" class="w-full h-48 object-cover">
                 </div>
@@ -33,8 +36,9 @@
                     <img src="foto5.jpg" alt="Foto 5" class="w-full h-48 object-cover">
                 </div>
                 <div class="bg-white shadow rounded overflow-hidden">
-                    <img src="foto6.jpg" alt="Foto 6" class="w-full h-48 object-cover">
-                </div>
+                    <img src="![Uploading DSC_0428.JPG…]()
+" alt="Foto 6" class="w-full h-48 object-cover"> 
+                </div> 
                 <div class="bg-white shadow rounded overflow-hidden">
                     <img src="foto7.jpg" alt="Foto 7" class="w-full h-48 object-cover">
                 </div>
